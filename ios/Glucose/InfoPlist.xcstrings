@@ -1,0 +1,19 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "CFBundleDisplayName": {
+      "shouldTranslate": false
+    },
+    "NSUserNotificationsUsageDescription": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A app avisa-te quando a glicose está alta ou baixa, mesmo em segundo plano."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

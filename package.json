@@ -1,0 +1,11 @@
+{
+  "name": "dt1agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reference JavaScript implementation of the DT1 Agent dosing engine, used to generate the iOS parity fixtures.",
+  "scripts": {
+    "test": "node --test",
+    "fixtures": "node scripts/generate-parity-fixtures.js > ios/GlucoseEngineTests/Fixtures/parity-fixtures.json"
+  },
+  "license": "MIT"
+}

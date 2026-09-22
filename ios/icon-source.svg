@@ -1,0 +1,19 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="lens">
+      <path d="M332 360 L502 360 L502 420 C497 455, 472 490, 422 490 C372 490, 332 460, 332 400 Z"/>
+      <path d="M522 360 L692 360 L692 400 C692 460, 652 490, 602 490 C552 490, 527 455, 522 420 Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1024" height="1024" fill="#171A20"/>
+
+  <path d="M190 900 C 190 685, 288 556, 512 556 C 736 556, 834 685, 834 900 Z" fill="#E8EAED"/>
+  <circle cx="512" cy="390" r="180" fill="#E8EAED"/>
+
+  <path d="M332 360 L692 360 L692 400 C692 460, 652 490, 602 490 C552 490, 527 455, 522 420 L502 420 C497 455, 472 490, 422 490 C372 490, 332 460, 332 400 Z" fill="#0B0D11"/>
+
+  <g clip-path="url(#lens)">
+    <path d="M310 432 C 355 432, 375 392, 425 392 S 488 426, 540 402 S 620 430, 714 404" fill="none" stroke="#2DD4BF" stroke-width="22" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Node (only used for the reference engine tests)
+node_modules/
+
+# Never commit secrets or personal data
+.env
+.env.*
+*.db
+*.db-*
+*.json.bak
+
+# Xcode
+ios/build/
+ios/build-sim/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
+
+# Local Claude Code settings (can contain command history)
+.claude/

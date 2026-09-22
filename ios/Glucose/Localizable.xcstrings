@@ -1,0 +1,2053 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%.0f U — have you injected it?": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%.0f U — já injetaste?"
+          }
+        }
+      }
+    },
+    "%.1f U in the morning": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%.1f U de manhã"
+          }
+        }
+      }
+    },
+    "%lld": {
+      "shouldTranslate": false
+    },
+    "%lld g carbs": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld g HC"
+          }
+        }
+      }
+    },
+    "%lld mg/dL · last injection over 2 h ago": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld mg/dL · última injeção há mais de 2 h"
+          }
+        }
+      }
+    },
+    "%lld min": {
+      "shouldTranslate": false
+    },
+    "%lld min ago": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "há %lld min"
+          }
+        }
+      }
+    },
+    "%lld new readings added.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld leituras novas adicionadas."
+          }
+        }
+      }
+    },
+    "%lld record(s) waiting to sync": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld registo(s) por sincronizar"
+          }
+        }
+      }
+    },
+    "%lld%%": {
+      "shouldTranslate": false
+    },
+    "1 U covers": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 U cobre"
+          }
+        }
+      }
+    },
+    "1 U lowers": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 U baixa"
+          }
+        }
+      }
+    },
+    "12 h": {
+      "shouldTranslate": false
+    },
+    "180": {
+      "shouldTranslate": false
+    },
+    "24 h": {
+      "shouldTranslate": false
+    },
+    "48 h": {
+      "shouldTranslate": false
+    },
+    "6 h": {
+      "shouldTranslate": false
+    },
+    "70": {
+      "shouldTranslate": false
+    },
+    "Active carbs": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hidratos ativos"
+          }
+        }
+      }
+    },
+    "Active insulin": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Insulina ativa"
+          }
+        }
+      }
+    },
+    "Activity": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atividade"
+          }
+        }
+      }
+    },
+    "Add": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adicionar"
+          }
+        }
+      }
+    },
+    "Basal": {
+      "shouldTranslate": false
+    },
+    "Basal logged — good morning!": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basal registada — bom dia!"
+          }
+        }
+      }
+    },
+    "Best streak": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Melhor streak"
+          }
+        }
+      }
+    },
+    "Bolus": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bólus"
+          }
+        }
+      }
+    },
+    "Calculated FPU": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FPU calculado"
+          }
+        }
+      }
+    },
+    "Calculating suggestion…": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A calcular sugestão…"
+          }
+        }
+      }
+    },
+    "Calculating…": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A calcular…"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
+        }
+      }
+    },
+    "Carbs/100g": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HC/100g"
+          }
+        }
+      }
+    },
+    "Changing the goal recalculates the calendar and streak instantly. The usual clinical reference is 70%.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mudar o objetivo recalcula o calendário e o streak na hora. A referência clínica habitual é 70%."
+          }
+        }
+      }
+    },
+    "Classic rule: 15 g of fast-acting carbs, recheck in 15 min.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Regra clássica: 15 g de HC rápidos, reavaliar em 15 min."
+          }
+        }
+      }
+    },
+    "Close": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fechar"
+          }
+        }
+      }
+    },
+    "Connected": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ligado"
+          }
+        }
+      }
+    },
+    "Correction": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Correção"
+          }
+        }
+      }
+    },
+    "Could not load this day.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não foi possível carregar este dia."
+          }
+        }
+      }
+    },
+    "Could not save: %@": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erro ao guardar: %@"
+          }
+        }
+      }
+    },
+    "Current streak": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Streak atual"
+          }
+        }
+      }
+    },
+    "Cycling": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bicicleta"
+          }
+        }
+      }
+    },
+    "DT1 Agent": {
+      "shouldTranslate": false
+    },
+    "Daily basal": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basal diária"
+          }
+        }
+      }
+    },
+    "Daily goal": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Objetivo diário"
+          }
+        }
+      }
+    },
+    "Delete": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar"
+          }
+        }
+      }
+    },
+    "Delete record": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar registo"
+          }
+        }
+      }
+    },
+    "Delete this record? IOB/COB will be recalculated.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar este registo? O IOB/COB serão recalculados."
+          }
+        }
+      }
+    },
+    "Description": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descrição"
+          }
+        }
+      }
+    },
+    "Discard": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descartar"
+          }
+        }
+      }
+    },
+    "Discard %lld record(s) waiting to sync? They will not be saved.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descartar %lld registo(s) por sincronizar? Não serão guardados."
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fechar"
+          }
+        }
+      }
+    },
+    "Duration of insulin action (DIA)": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duração de ação da insulina (DIA)"
+          }
+        }
+      }
+    },
+    "Eat now": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Come agora"
+          }
+        }
+      }
+    },
+    "Edit": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editar"
+          }
+        }
+      }
+    },
+    "Edit record": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editar registo"
+          }
+        }
+      }
+    },
+    "Enter the nutrition facts from the label (per 100g) — FPU is calculated automatically with the Warsaw method (1 FPU = 100 kcal from fat + protein). Fiber is recorded for reference only; it does not change the calculation (there is no validated formula for it).": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Introduz os factos do rótulo (por 100g) — o FPU é calculado automaticamente pelo método de Varsóvia (1 FPU = 100 kcal de gordura+proteína). A fibra fica registada como referência; não altera o cálculo (não há fórmula validada para isso)."
+          }
+        }
+      }
+    },
+    "Enter your LibreLinkUp email and password in Settings.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configura o email e password da LibreLinkUp em Ajustes."
+          }
+        }
+      }
+    },
+    "Enter your manual glucose above to get a suggestion.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Introduz a glicemia manual acima para receberes a sugestão."
+          }
+        }
+      }
+    },
+    "Error %lld: %@": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erro %lld: %@"
+          }
+        }
+      }
+    },
+    "Exercise": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exercício"
+          }
+        }
+      }
+    },
+    "Fat (g)": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gordura (g)"
+          }
+        }
+      }
+    },
+    "Fat/100g": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gordura/100g"
+          }
+        }
+      }
+    },
+    "Fetch last 14 days from LibreLinkUp": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puxar últimos 14 dias da LibreLinkUp"
+          }
+        }
+      }
+    },
+    "Fetching…": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A puxar…"
+          }
+        }
+      }
+    },
+    "Fiber (g, optional)": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fibra (g, opcional)"
+          }
+        }
+      }
+    },
+    "Fiber/100g (optional)": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fibra/100g (opcional)"
+          }
+        }
+      }
+    },
+    "Fill in the values set by your diabetes care team. Until you save, the app suggests no doses and no rescue carbs.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preenche com os valores definidos pela tua equipa de diabetes. Até guardares, a app não sugere doses nem hidratos de resgate."
+          }
+        }
+      }
+    },
+    "Fills recent gaps (up to 14 days) — only readings tied to events/alarms, not the full continuous trace.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tapa buracos recentes (até 14 dias) — só leituras associadas a eventos/alarmes, não o traço contínuo todo."
+          }
+        }
+      }
+    },
+    "First set up your profile in Settings → Ratios & targets (values from your doctor). Without it the app suggests no doses.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configura primeiro o teu perfil em Ajustes → Rácios e alvos (valores do teu médico). Sem isso a app não sugere doses."
+          }
+        }
+      }
+    },
+    "Food (%@g)": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alimento (%@g)"
+          }
+        }
+      }
+    },
+    "Football": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Futebol"
+          }
+        }
+      }
+    },
+    "Forecast %lld mg/dL": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prevista %lld mg/dL"
+          }
+        }
+      }
+    },
+    "Forecast above target": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previsão acima do alvo"
+          }
+        }
+      }
+    },
+    "Forecast below target": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previsão abaixo do alvo"
+          }
+        }
+      }
+    },
+    "Frequent": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frequentes"
+          }
+        }
+      }
+    },
+    "Frequent meals": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refeições frequentes"
+          }
+        }
+      }
+    },
+    "Glucose %lld · IOB %.1f U · COB %.0f g · Meal %.1f U · Correction %+.1f U": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Glicose %lld · IOB %.1f U · COB %.0f g · Refeição %.1f U · Correção %+.1f U"
+          }
+        }
+      }
+    },
+    "Glucose %lld · IOB %.1f U · forecast %lld mg/dL": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Glicose %lld · IOB %.1f U · previsão %lld mg/dL"
+          }
+        }
+      }
+    },
+    "Gym": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ginásio"
+          }
+        }
+      }
+    },
+    "HIGH GLUCOSE": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GLICOSE ALTA"
+          }
+        }
+      }
+    },
+    "High": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alta"
+          }
+        }
+      }
+    },
+    "High %lld%%": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alto %lld%%"
+          }
+        }
+      }
+    },
+    "High glucose": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Glicemia alta"
+          }
+        }
+      }
+    },
+    "History": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histórico"
+          }
+        }
+      }
+    },
+    "Home": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Início"
+          }
+        }
+      }
+    },
+    "How long rapid-acting insulin stays active. Determines insulin on board (IOB).": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quanto tempo a insulina rápida continua ativa. Determina a insulina ativa (IOB)."
+          }
+        }
+      }
+    },
+    "Hypo rescue": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resgate hipo"
+          }
+        }
+      }
+    },
+    "I ate it — log %lld g": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comi — registar %lld g"
+          }
+        }
+      }
+    },
+    "I will inject": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vou injetar"
+          }
+        }
+      }
+    },
+    "If you feel hypo, check with the sensor and eat 15 g anyway — symptoms beat the calculation.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se te sentes em hipo, confirma com o sensor e come 15 g na mesma — os sintomas ganham ao cálculo."
+          }
+        }
+      }
+    },
+    "If you forgot to log at the time, adjust the time — active amounts stay correct.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se te esqueceste de registar na altura, ajusta a hora — as quantidades ativas ficam corretas."
+          }
+        }
+      }
+    },
+    "If you give it a name, this meal is added to the frequent chips.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se deres um nome, esta refeição fica nos chips de frequentes."
+          }
+        }
+      }
+    },
+    "In range %lld%%": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No alvo %lld%%"
+          }
+        }
+      }
+    },
+    "In range at least": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No alvo pelo menos"
+          }
+        }
+      }
+    },
+    "In range at least %lld%%": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No alvo pelo menos %lld%%"
+          }
+        }
+      }
+    },
+    "Increment": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incremento"
+          }
+        }
+      }
+    },
+    "Insulin": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Insulina"
+          }
+        }
+      }
+    },
+    "Insulin from %@": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Insulina de %@"
+          }
+        }
+      }
+    },
+    "Insulin-to-carb ratio": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rácio insulina : hidratos"
+          }
+        }
+      }
+    },
+    "Intensity": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intensidade"
+          }
+        }
+      }
+    },
+    "Invalid LibreLinkUp email or password.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Email ou password da LibreLinkUp inválidos."
+          }
+        }
+      }
+    },
+    "LOW GLUCOSE": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GLICOSE BAIXA"
+          }
+        }
+      }
+    },
+    "Label calculator": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calculadora do rótulo"
+          }
+        }
+      }
+    },
+    "Last 12 h": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Últimas 12 h"
+          }
+        }
+      }
+    },
+    "Last 48 h": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Últimas 48 h"
+          }
+        }
+      }
+    },
+    "LibreLinkUp": {
+      "shouldTranslate": false
+    },
+    "LibreLinkUp is rate-limiting requests — try again in a few minutes.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LibreLinkUp está a limitar pedidos — volta a tentar daqui a uns minutos."
+          }
+        }
+      }
+    },
+    "LibreLinkUp is unavailable (error %lld).": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LibreLinkUp está indisponível (erro %lld)."
+          }
+        }
+      }
+    },
+    "LibreLinkUp needs an action in the official app: open the LibreLinkUp app with this account and accept the terms / privacy policy or confirm your email.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A LibreLinkUp pede uma ação na app oficial: abre a app LibreLinkUp com esta conta e aceita os termos / política de privacidade ou confirma o email."
+          }
+        }
+      }
+    },
+    "LibreLinkUp rejected the session — check your email and password in Settings.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LibreLinkUp recusou a sessão — confirma email e password em Ajustes."
+          }
+        }
+      }
+    },
+    "LibreLinkUp responded with error %lld.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LibreLinkUp respondeu com erro %lld."
+          }
+        }
+      }
+    },
+    "LibreLinkUp session not authenticated.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessão LibreLinkUp não autenticada."
+          }
+        }
+      }
+    },
+    "Light": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leve"
+          }
+        }
+      }
+    },
+    "Loading day…": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A carregar o dia…"
+          }
+        }
+      }
+    },
+    "Loading profile…": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A carregar perfil…"
+          }
+        }
+      }
+    },
+    "Loading…": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A carregar…"
+          }
+        }
+      }
+    },
+    "Log": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registar"
+          }
+        }
+      }
+    },
+    "Log exercise": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registar exercício"
+          }
+        }
+      }
+    },
+    "Logging in the past — IOB/COB will be recalculated with this time. The dose suggestion above is for NOW, not for that time.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A registar no passado — o IOB/COB vão ser recalculados com esta hora. A sugestão de dose acima refere-se a AGORA, não a essa altura."
+          }
+        }
+      }
+    },
+    "Low": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baixa"
+          }
+        }
+      }
+    },
+    "Low %lld%%": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baixo %lld%%"
+          }
+        }
+      }
+    },
+    "Low glucose": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Glicemia baixa"
+          }
+        }
+      }
+    },
+    "Low predicted — eat %lld g of carbs instead of injecting.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baixa prevista — come %lld g de HC em vez de injetar."
+          }
+        }
+      }
+    },
+    "Manage favorites…": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gerir favoritas…"
+          }
+        }
+      }
+    },
+    "Manage frequent meals": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gerir refeições frequentes"
+          }
+        }
+      }
+    },
+    "Manual glucose": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Glicemia manual"
+          }
+        }
+      }
+    },
+    "Maximum": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Máximo"
+          }
+        }
+      }
+    },
+    "Meal": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refeição"
+          }
+        }
+      }
+    },
+    "Meal from %@": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refeição de %@"
+          }
+        }
+      }
+    },
+    "Meals": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refeições"
+          }
+        }
+      }
+    },
+    "Minimum": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mínimo"
+          }
+        }
+      }
+    },
+    "Moderate": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moderada"
+          }
+        }
+      }
+    },
+    "Morning basal": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basal da manhã"
+          }
+        }
+      }
+    },
+    "NOW": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AGORA"
+          }
+        }
+      }
+    },
+    "Name (e.g. Oats + milk)": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nome (ex: Aveia + leite)"
+          }
+        }
+      }
+    },
+    "New favorite": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nova favorita"
+          }
+        }
+      }
+    },
+    "No connection to LibreLinkUp": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem ligação à LibreLinkUp"
+          }
+        }
+      }
+    },
+    "No connection to LibreLinkUp — last successful request at %@": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem ligação à LibreLinkUp — último pedido bem-sucedido às %@"
+          }
+        }
+      }
+    },
+    "No connections on this account — accept the sharing invitation in the LibreLinkUp app (see the README).": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma ligação nesta conta — aceita o convite de partilha na app LibreLinkUp (ver README)."
+          }
+        }
+      }
+    },
+    "No favorites yet — log meals and save them.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem favoritas ainda — regista refeições e guarda-as."
+          }
+        }
+      }
+    },
+    "No low predicted": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem baixa prevista"
+          }
+        }
+      }
+    },
+    "No recent sensor reading (under 15 min).": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem leitura recente do sensor (menos de 15 min)."
+          }
+        }
+      }
+    },
+    "No records on this day.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem registos neste dia."
+          }
+        }
+      }
+    },
+    "Now %lld → forecast %lld mg/dL": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agora %lld → prevista %lld mg/dL"
+          }
+        }
+      }
+    },
+    "Other": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Outro"
+          }
+        }
+      }
+    },
+    "P %.0fg · F %.0fg · Fiber %.0fg": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "P %.0fg · G %.0fg · Fibra %.0fg"
+          }
+        }
+      }
+    },
+    "Period": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Período"
+          }
+        }
+      }
+    },
+    "Progress": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Progresso"
+          }
+        }
+      }
+    },
+    "Protein (g)": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proteína (g)"
+          }
+        }
+      }
+    },
+    "Protein/100g": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proteína/100g"
+          }
+        }
+      }
+    },
+    "Rapid-acting insulin pen": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caneta de insulina rápida"
+          }
+        }
+      }
+    },
+    "Ratios & targets": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rácios e alvos"
+          }
+        }
+      }
+    },
+    "Record(s) rejected and removed from the queue: %@. Log them again manually if still relevant.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registo(s) rejeitado(s) e removido(s) da fila: %@. Volta a registá-lo(s) manualmente se ainda fizer sentido."
+          }
+        }
+      }
+    },
+    "Records for the day": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registos do dia"
+          }
+        }
+      }
+    },
+    "Reminder off": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lembrete desligado"
+          }
+        }
+      }
+    },
+    "Running": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Corrida"
+          }
+        }
+      }
+    },
+    "Save": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar"
+          }
+        }
+      }
+    },
+    "Save as favorite (name, optional)": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar como favorita (nome, opcional)"
+          }
+        }
+      }
+    },
+    "Saved — the next suggestions already use these values.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardado — as próximas sugestões já usam estes valores."
+          }
+        }
+      }
+    },
+    "Saving…": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A guardar…"
+          }
+        }
+      }
+    },
+    "Sensitivity factor": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fator de sensibilidade"
+          }
+        }
+      }
+    },
+    "Set up LibreLinkUp in Settings": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configura a LibreLinkUp em Ajustes"
+          }
+        }
+      }
+    },
+    "Set up LibreLinkUp in Settings.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configura a LibreLinkUp em Ajustes."
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes"
+          }
+        }
+      }
+    },
+    "Stop alarm": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parar alarme"
+          }
+        }
+      }
+    },
+    "Suggestion": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sugestão"
+          }
+        }
+      }
+    },
+    "Target glucose": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Glicose alvo"
+          }
+        }
+      }
+    },
+    "Target range": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intervalo alvo"
+          }
+        }
+      }
+    },
+    "Test connection": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Testar ligação"
+          }
+        }
+      }
+    },
+    "The sensor reading is older than 5 min (or there is no connection). Enter your current value to get a suggestion.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A leitura do sensor tem mais de 5 min (ou não há ligação). Introduz o valor atual para receberes a sugestão."
+          }
+        }
+      }
+    },
+    "The smallest dose your pen can dial. Suggestions always round down.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A menor dose que a tua caneta consegue marcar. As sugestões arredondam sempre para baixo."
+          }
+        }
+      }
+    },
+    "The suggestion uses your ratios and accounts for IOB/COB. The decision is always yours — adjust the dose before logging.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A sugestão usa os teus rácios e desconta IOB/COB. A decisão é sempre tua — ajusta a dose antes de registar."
+          }
+        }
+      }
+    },
+    "The value corrections aim for.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O valor para onde as correções apontam."
+          }
+        }
+      }
+    },
+    "Therapy profile": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perfil terapêutico"
+          }
+        }
+      }
+    },
+    "These values come from your diabetes care team and change every dose suggestion. Double-check before changing them.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estes valores vêm da tua equipa de diabetes e alteram todas as sugestões de dose. Confirma antes de mudar."
+          }
+        }
+      }
+    },
+    "They sync on their own once online · tap to discard": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizam sozinhos quando houver ligação · toca para descartar"
+          }
+        }
+      }
+    },
+    "This app suggests doses based on your ratios — it does not replace clinical judgment. Validate your regimen with your diabetes care team.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta app sugere doses com base nos teus rácios — não substitui juízo clínico. Valida o esquema com a tua equipa de diabetes."
+          }
+        }
+      }
+    },
+    "Time": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hora"
+          }
+        }
+      }
+    },
+    "Time-in-range goal": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Objetivo de tempo no alvo"
+          }
+        }
+      }
+    },
+    "Total": {
+      "shouldTranslate": false
+    },
+    "Treatment": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tratamento"
+          }
+        }
+      }
+    },
+    "Type": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tipo"
+          }
+        }
+      }
+    },
+    "Unknown LibreLinkUp region: %@.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Região LibreLinkUp desconhecida: %@."
+          }
+        }
+      }
+    },
+    "Used by the Progress calendar and streak — changing it here recalculates everything instantly.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usado no calendário e no streak do Progresso — mudar aqui recalcula tudo na hora."
+          }
+        }
+      }
+    },
+    "Used everywhere: % in range, calendar and streaks, charts, colors and alarms (low below the minimum; high and forecast outside the range). 70–180 is the international consensus.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usado em tudo: % no alvo, calendário e streaks, gráficos, cores e alarmes (baixa abaixo do mínimo; alta e previsão fora do intervalo). 70–180 é o consenso internacional."
+          }
+        }
+      }
+    },
+    "Vigorous": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intensa"
+          }
+        }
+      }
+    },
+    "Walking": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caminhada"
+          }
+        }
+      }
+    },
+    "When": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quando"
+          }
+        }
+      }
+    },
+    "With a dose set, every day from 05:00 a reminder shows on Home until you confirm it. Confirming logs the dose. Leave it at 0 to turn it off.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Com uma dose definida, todos os dias a partir das 05:00 aparece o lembrete no Início até confirmares. Confirmar regista a dose. Deixa a 0 para desligar."
+          }
+        }
+      }
+    },
+    "You have no favorites yet.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ainda não tens favoritas."
+          }
+        }
+      }
+    },
+    "Your LibreLinkUp follower account (not the sensor app account) — see the README. The app connects directly, with no server; the password stays only in this iPhone's Keychain.": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A conta de seguidor da LibreLinkUp (não a da app do sensor) — ver README. A app liga-se diretamente, sem servidor; a password fica só no Keychain deste iPhone."
+          }
+        }
+      }
+    },
+    "Your favorites": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "As tuas favoritas"
+          }
+        }
+      }
+    },
+    "below": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "abaixo"
+          }
+        }
+      }
+    },
+    "carbs (g)": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "hidratos (g)"
+          }
+        }
+      }
+    },
+    "current glucose": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "glicemia atual"
+          }
+        }
+      }
+    },
+    "day": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "dia"
+          }
+        }
+      }
+    },
+    "days": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "dias"
+          }
+        }
+      }
+    },
+    "e.g. 10": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ex.: 10"
+          }
+        }
+      }
+    },
+    "e.g. 110": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ex.: 110"
+          }
+        }
+      }
+    },
+    "e.g. 4": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ex.: 4"
+          }
+        }
+      }
+    },
+    "e.g. 40": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ex.: 40"
+          }
+        }
+      }
+    },
+    "email": {
+      "shouldTranslate": false
+    },
+    "favorite not found": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "favorito não encontrado"
+          }
+        }
+      }
+    },
+    "g carbs": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "g HC"
+          }
+        }
+      }
+    },
+    "g of carbs": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "g de HC"
+          }
+        }
+      }
+    },
+    "grams": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "gramas"
+          }
+        }
+      }
+    },
+    "hours": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "horas"
+          }
+        }
+      }
+    },
+    "last %lld h · pinch to adjust": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "últimas %lld h · faz pinch para ajustar"
+          }
+        }
+      }
+    },
+    "mg/dL": {
+      "shouldTranslate": false
+    },
+    "mg/dL · target %lld": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "mg/dL · alvo %lld"
+          }
+        }
+      }
+    },
+    "no data": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sem dados"
+          }
+        }
+      }
+    },
+    "of fast-acting carbs (juice, sugar, glucose tabs)": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "de hidratos rápidos (sumo, açúcar, dextrose)"
+          }
+        }
+      }
+    },
+    "password": {
+      "shouldTranslate": false
+    },
+    "updating…": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "a atualizar…"
+          }
+        }
+      }
+    },
+    "used %lld×": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "usada %lld×"
+          }
+        }
+      }
+    },
+    "yesterday %@": {
+      "localizations": {
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ontem %@"
+          }
+        }
+      }
+    },
+    "—": {
+      "shouldTranslate": false
+    },
+    "…": {
+      "shouldTranslate": false
+    },
+    "≥ %lld%%": {
+      "shouldTranslate": false
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,3660 @@
+{
+  "generatedAt": "2026-09-08T20:16:59.921Z",
+  "seed": 42,
+  "bolusScenarios": [
+    {
+      "id": "bolus-0",
+      "input": {
+        "bg": 223,
+        "carbs_g": 27,
+        "fpu": 1.5,
+        "doses": [],
+        "meals": [
+          {
+            "carbs_g": 12,
+            "fpu": 2.6,
+            "eaten_at": 1767250860000
+          }
+        ],
+        "icr": 10,
+        "isf": 25,
+        "now": 1767271380000,
+        "profile": {
+          "dia_hours": 3.5,
+          "insulin_peak_min": 75,
+          "target_mg_dl": 120,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 90,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 0.5,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 43,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 223,
+        "iob": 0,
+        "cob": 4.16,
+        "icr": 10,
+        "isf": 25,
+        "target_mg_dl": 120,
+        "eventual_bg": 233,
+        "meal_units": 2.7,
+        "correction_units": 4.54,
+        "total_units_unrounded": 7.24,
+        "recommended_units": 7,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 27,
+          "fpu": 1.5
+        }
+      }
+    },
+    {
+      "id": "bolus-1",
+      "input": {
+        "bg": 327,
+        "carbs_g": 107,
+        "fpu": 2.2,
+        "doses": [],
+        "meals": [
+          {
+            "carbs_g": 26,
+            "fpu": 2.8,
+            "eaten_at": 1767253980000
+          },
+          {
+            "carbs_g": 16,
+            "fpu": 2.5,
+            "eaten_at": 1767260400000
+          }
+        ],
+        "icr": 8,
+        "isf": 50,
+        "now": 1767265620000,
+        "profile": {
+          "dia_hours": 3,
+          "insulin_peak_min": 75,
+          "target_mg_dl": 120,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 120,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -53,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 327,
+        "iob": 0,
+        "cob": 46.09,
+        "icr": 8,
+        "isf": 50,
+        "target_mg_dl": 120,
+        "eventual_bg": 615,
+        "meal_units": 13.38,
+        "correction_units": 9.9,
+        "total_units_unrounded": 23.28,
+        "recommended_units": 23,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 107,
+          "fpu": 2.2
+        }
+      }
+    },
+    {
+      "id": "bolus-2",
+      "input": {
+        "bg": 259,
+        "carbs_g": 85,
+        "fpu": 2.9,
+        "doses": [
+          {
+            "units": 4,
+            "type": "bolus",
+            "injected_at": 1767265380000
+          },
+          {
+            "units": 4,
+            "type": "bolus",
+            "injected_at": 1767254940000
+          },
+          {
+            "units": 5,
+            "type": "basal",
+            "injected_at": 1767261780000
+          }
+        ],
+        "meals": [],
+        "icr": 10,
+        "isf": 35,
+        "now": 1767267120000,
+        "profile": {
+          "dia_hours": 3,
+          "insulin_peak_min": 65,
+          "target_mg_dl": 110,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 120,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -28,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 259,
+        "iob": 3.57,
+        "cob": 0,
+        "icr": 10,
+        "isf": 35,
+        "target_mg_dl": 110,
+        "eventual_bg": 134,
+        "meal_units": 8.5,
+        "correction_units": 0.69,
+        "total_units_unrounded": 9.19,
+        "recommended_units": 9,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 85,
+          "fpu": 2.9
+        }
+      }
+    },
+    {
+      "id": "bolus-3",
+      "input": {
+        "bg": 225,
+        "carbs_g": 40,
+        "fpu": 1.3,
+        "doses": [],
+        "meals": [
+          {
+            "carbs_g": 10,
+            "fpu": 2.8,
+            "eaten_at": 1767254280000
+          },
+          {
+            "carbs_g": 43,
+            "fpu": 2.1,
+            "eaten_at": 1767263280000
+          },
+          {
+            "carbs_g": 12,
+            "fpu": 1.5,
+            "eaten_at": 1767266700000
+          }
+        ],
+        "icr": 8,
+        "isf": 50,
+        "now": 1767266940000,
+        "profile": {
+          "dia_hours": 4,
+          "insulin_peak_min": 75,
+          "target_mg_dl": 110,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 60,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 0.5,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -31,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 225,
+        "iob": 0,
+        "cob": 81.84,
+        "icr": 8,
+        "isf": 50,
+        "target_mg_dl": 110,
+        "eventual_bg": 736,
+        "meal_units": 5,
+        "correction_units": 12.53,
+        "total_units_unrounded": 17.53,
+        "recommended_units": 17.5,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 40,
+          "fpu": 1.3
+        }
+      }
+    },
+    {
+      "id": "bolus-4",
+      "input": {
+        "bg": 295,
+        "carbs_g": 84,
+        "fpu": 3.4,
+        "doses": [
+          {
+            "units": 1.5,
+            "type": "bolus",
+            "injected_at": 1767259080000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 99,
+            "fpu": 1.3,
+            "eaten_at": 1767255360000
+          },
+          {
+            "carbs_g": 43,
+            "fpu": 0.1,
+            "eaten_at": 1767267420000
+          }
+        ],
+        "icr": 12,
+        "isf": 50,
+        "now": 1767271140000,
+        "profile": {
+          "dia_hours": 4.5,
+          "insulin_peak_min": 90,
+          "target_mg_dl": 100,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 90,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 0.5,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 39,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 295,
+        "iob": 0.14,
+        "cob": 24.13,
+        "icr": 12,
+        "isf": 50,
+        "target_mg_dl": 100,
+        "eventual_bg": 389,
+        "meal_units": 7,
+        "correction_units": 5.77,
+        "total_units_unrounded": 12.77,
+        "recommended_units": 12.5,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 84,
+          "fpu": 3.4
+        }
+      }
+    },
+    {
+      "id": "bolus-5",
+      "input": {
+        "bg": 324,
+        "carbs_g": 24,
+        "fpu": 1.3,
+        "doses": [
+          {
+            "units": 2.5,
+            "type": "correction",
+            "injected_at": 1767268620000
+          },
+          {
+            "units": 5.5,
+            "type": "correction",
+            "injected_at": 1767260280000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 59,
+            "fpu": 2.1,
+            "eaten_at": 1767258840000
+          }
+        ],
+        "icr": 10,
+        "isf": 50,
+        "now": 1767269580000,
+        "profile": {
+          "dia_hours": 3,
+          "insulin_peak_min": 65,
+          "target_mg_dl": 110,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 120,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 0.5,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 13,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 324,
+        "iob": 2.58,
+        "cob": 16.87,
+        "icr": 10,
+        "isf": 50,
+        "target_mg_dl": 110,
+        "eventual_bg": 279,
+        "meal_units": 2.4,
+        "correction_units": 3.39,
+        "total_units_unrounded": 5.79,
+        "recommended_units": 5.5,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 24,
+          "fpu": 1.3
+        }
+      }
+    },
+    {
+      "id": "bolus-6",
+      "input": {
+        "bg": 221,
+        "carbs_g": 111,
+        "fpu": 0.1,
+        "doses": [
+          {
+            "units": 4.5,
+            "type": "correction",
+            "injected_at": 1767251640000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 71,
+            "fpu": 2.4,
+            "eaten_at": 1767263280000
+          },
+          {
+            "carbs_g": 56,
+            "fpu": 2.1,
+            "eaten_at": 1767267960000
+          },
+          {
+            "carbs_g": 34,
+            "fpu": 1.4,
+            "eaten_at": 1767255000000
+          }
+        ],
+        "icr": 15,
+        "isf": 50,
+        "now": 1767272220000,
+        "profile": {
+          "dia_hours": 3,
+          "insulin_peak_min": 75,
+          "target_mg_dl": 100,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 90,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 57,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 221,
+        "iob": 0,
+        "cob": 74.79,
+        "icr": 15,
+        "isf": 50,
+        "target_mg_dl": 100,
+        "eventual_bg": 470,
+        "meal_units": 7.4,
+        "correction_units": 7.41,
+        "total_units_unrounded": 14.81,
+        "recommended_units": 14,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 111,
+          "fpu": 0.1
+        }
+      }
+    },
+    {
+      "id": "bolus-7",
+      "input": {
+        "bg": 266,
+        "carbs_g": 61,
+        "fpu": 0.1,
+        "doses": [
+          {
+            "units": 6,
+            "type": "basal",
+            "injected_at": 1767255480000
+          },
+          {
+            "units": 4.5,
+            "type": "basal",
+            "injected_at": 1767251100000
+          },
+          {
+            "units": 5,
+            "type": "basal",
+            "injected_at": 1767267840000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 62,
+            "fpu": 0.7,
+            "eaten_at": 1767255360000
+          },
+          {
+            "carbs_g": 2,
+            "fpu": 2.8,
+            "eaten_at": 1767260760000
+          }
+        ],
+        "icr": 10,
+        "isf": 30,
+        "now": 1767267720000,
+        "profile": {
+          "dia_hours": 4,
+          "insulin_peak_min": 75,
+          "target_mg_dl": 100,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 90,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -18,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 266,
+        "iob": 0,
+        "cob": 28.06,
+        "icr": 10,
+        "isf": 30,
+        "target_mg_dl": 100,
+        "eventual_bg": 350,
+        "meal_units": 6.1,
+        "correction_units": 8.34,
+        "total_units_unrounded": 14.44,
+        "recommended_units": 14,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 61,
+          "fpu": 0.1
+        }
+      }
+    },
+    {
+      "id": "bolus-8",
+      "input": {
+        "bg": 82,
+        "carbs_g": 31,
+        "fpu": 1.1,
+        "doses": [
+          {
+            "units": 3.5,
+            "type": "basal",
+            "injected_at": 1767256740000
+          },
+          {
+            "units": 5,
+            "type": "correction",
+            "injected_at": 1767256200000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 92,
+            "fpu": 2.6,
+            "eaten_at": 1767258780000
+          }
+        ],
+        "icr": 8,
+        "isf": 25,
+        "now": 1767269940000,
+        "profile": {
+          "dia_hours": 4,
+          "insulin_peak_min": 75,
+          "target_mg_dl": 100,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 60,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 0.5,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 19,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 82,
+        "iob": 0.01,
+        "cob": 21.58,
+        "icr": 8,
+        "isf": 25,
+        "target_mg_dl": 100,
+        "eventual_bg": 149,
+        "meal_units": 3.88,
+        "correction_units": 1.97,
+        "total_units_unrounded": 5.84,
+        "recommended_units": 5.5,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 31,
+          "fpu": 1.1
+        }
+      }
+    },
+    {
+      "id": "bolus-9",
+      "input": {
+        "bg": 182,
+        "carbs_g": 93,
+        "fpu": 2.6,
+        "doses": [
+          {
+            "units": 2.5,
+            "type": "basal",
+            "injected_at": 1767261120000
+          },
+          {
+            "units": 3,
+            "type": "basal",
+            "injected_at": 1767259380000
+          },
+          {
+            "units": 6,
+            "type": "basal",
+            "injected_at": 1767263880000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 96,
+            "fpu": 2.4,
+            "eaten_at": 1767252900000
+          },
+          {
+            "carbs_g": 16,
+            "fpu": 1.8,
+            "eaten_at": 1767259500000
+          },
+          {
+            "carbs_g": 70,
+            "fpu": 0,
+            "eaten_at": 1767260940000
+          }
+        ],
+        "icr": 8,
+        "isf": 30,
+        "now": 1767265560000,
+        "profile": {
+          "dia_hours": 4.5,
+          "insulin_peak_min": 50,
+          "target_mg_dl": 110,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 120,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -54,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 182,
+        "iob": 0,
+        "cob": 73.72,
+        "icr": 8,
+        "isf": 30,
+        "target_mg_dl": 110,
+        "eventual_bg": 458,
+        "meal_units": 11.63,
+        "correction_units": 11.62,
+        "total_units_unrounded": 23.24,
+        "recommended_units": 23,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 93,
+          "fpu": 2.6
+        }
+      }
+    },
+    {
+      "id": "bolus-10",
+      "input": {
+        "bg": 200,
+        "carbs_g": 69,
+        "fpu": 3.7,
+        "doses": [],
+        "meals": [],
+        "icr": 12,
+        "isf": 25,
+        "now": 1767271080000,
+        "profile": {
+          "dia_hours": 4.5,
+          "insulin_peak_min": 90,
+          "target_mg_dl": 100,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 60,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 38,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 200,
+        "iob": 0,
+        "cob": 0,
+        "icr": 12,
+        "isf": 25,
+        "target_mg_dl": 100,
+        "eventual_bg": 200,
+        "meal_units": 5.75,
+        "correction_units": 4,
+        "total_units_unrounded": 9.75,
+        "recommended_units": 9,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 69,
+          "fpu": 3.7
+        }
+      }
+    },
+    {
+      "id": "bolus-11",
+      "input": {
+        "bg": 307,
+        "carbs_g": 11,
+        "fpu": 2.7,
+        "doses": [
+          {
+            "units": 5,
+            "type": "correction",
+            "injected_at": 1767252720000
+          },
+          {
+            "units": 6,
+            "type": "basal",
+            "injected_at": 1767260760000
+          },
+          {
+            "units": 6.5,
+            "type": "bolus",
+            "injected_at": 1767259800000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 24,
+            "fpu": 0.5,
+            "eaten_at": 1767261180000
+          },
+          {
+            "carbs_g": 14,
+            "fpu": 2.4,
+            "eaten_at": 1767256440000
+          }
+        ],
+        "icr": 15,
+        "isf": 50,
+        "now": 1767266820000,
+        "profile": {
+          "dia_hours": 3,
+          "insulin_peak_min": 50,
+          "target_mg_dl": 120,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 120,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 0.5,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -33,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 307,
+        "iob": 0.9,
+        "cob": 24.76,
+        "icr": 15,
+        "isf": 50,
+        "target_mg_dl": 120,
+        "eventual_bg": 345,
+        "meal_units": 0.73,
+        "correction_units": 4.49,
+        "total_units_unrounded": 5.23,
+        "recommended_units": 5,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 11,
+          "fpu": 2.7
+        }
+      }
+    },
+    {
+      "id": "bolus-12",
+      "input": {
+        "bg": 82,
+        "carbs_g": 101,
+        "fpu": 1,
+        "doses": [
+          {
+            "units": 5,
+            "type": "correction",
+            "injected_at": 1767255840000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 23,
+            "fpu": 2.9,
+            "eaten_at": 1767255060000
+          }
+        ],
+        "icr": 10,
+        "isf": 25,
+        "now": 1767265560000,
+        "profile": {
+          "dia_hours": 4.5,
+          "insulin_peak_min": 50,
+          "target_mg_dl": 100,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 60,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -54,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 82,
+        "iob": 0.45,
+        "cob": 17.88,
+        "icr": 10,
+        "isf": 25,
+        "target_mg_dl": 100,
+        "eventual_bg": 115,
+        "meal_units": 10.1,
+        "correction_units": 0.62,
+        "total_units_unrounded": 10.72,
+        "recommended_units": 10,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 101,
+          "fpu": 1
+        }
+      }
+    },
+    {
+      "id": "bolus-13",
+      "input": {
+        "bg": 65,
+        "carbs_g": 94,
+        "fpu": 1.7,
+        "doses": [
+          {
+            "units": 1,
+            "type": "basal",
+            "injected_at": 1767267180000
+          },
+          {
+            "units": 6,
+            "type": "bolus",
+            "injected_at": 1767264180000
+          },
+          {
+            "units": 7,
+            "type": "basal",
+            "injected_at": 1767267720000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 18,
+            "fpu": 0.7,
+            "eaten_at": 1767255540000
+          },
+          {
+            "carbs_g": 18,
+            "fpu": 1.2,
+            "eaten_at": 1767251100000
+          },
+          {
+            "carbs_g": 76,
+            "fpu": 1.3,
+            "eaten_at": 1767259560000
+          }
+        ],
+        "icr": 15,
+        "isf": 35,
+        "now": 1767270360000,
+        "profile": {
+          "dia_hours": 3,
+          "insulin_peak_min": 50,
+          "target_mg_dl": 110,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 90,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 26,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 65,
+        "iob": 1.29,
+        "cob": 9.47,
+        "icr": 15,
+        "isf": 35,
+        "target_mg_dl": 110,
+        "eventual_bg": 42,
+        "meal_units": 6.27,
+        "correction_units": -1.94,
+        "total_units_unrounded": 4.32,
+        "recommended_units": 4,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 94,
+          "fpu": 1.7
+        }
+      }
+    },
+    {
+      "id": "bolus-14",
+      "input": {
+        "bg": 313,
+        "carbs_g": 70,
+        "fpu": 1.1,
+        "doses": [
+          {
+            "units": 7.5,
+            "type": "correction",
+            "injected_at": 1767257100000
+          },
+          {
+            "units": 8,
+            "type": "correction",
+            "injected_at": 1767265080000
+          },
+          {
+            "units": 6.5,
+            "type": "correction",
+            "injected_at": 1767267180000
+          }
+        ],
+        "meals": [],
+        "icr": 8,
+        "isf": 30,
+        "now": 1767270300000,
+        "profile": {
+          "dia_hours": 4.5,
+          "insulin_peak_min": 75,
+          "target_mg_dl": 120,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 90,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 25,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 313,
+        "iob": 10.11,
+        "cob": 0,
+        "icr": 8,
+        "isf": 30,
+        "target_mg_dl": 120,
+        "eventual_bg": 10,
+        "meal_units": 8.75,
+        "correction_units": -3.67,
+        "total_units_unrounded": 5.08,
+        "recommended_units": 5,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 70,
+          "fpu": 1.1
+        }
+      }
+    },
+    {
+      "id": "bolus-15",
+      "input": {
+        "bg": 163,
+        "carbs_g": 61,
+        "fpu": 1.1,
+        "doses": [],
+        "meals": [],
+        "icr": 8,
+        "isf": 25,
+        "now": 1767265440000,
+        "profile": {
+          "dia_hours": 4.5,
+          "insulin_peak_min": 65,
+          "target_mg_dl": 110,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 90,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -56,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 163,
+        "iob": 0,
+        "cob": 0,
+        "icr": 8,
+        "isf": 25,
+        "target_mg_dl": 110,
+        "eventual_bg": 163,
+        "meal_units": 7.63,
+        "correction_units": 2.12,
+        "total_units_unrounded": 9.75,
+        "recommended_units": 9,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 61,
+          "fpu": 1.1
+        }
+      }
+    },
+    {
+      "id": "bolus-16",
+      "input": {
+        "bg": 312,
+        "carbs_g": 31,
+        "fpu": 2.4,
+        "doses": [],
+        "meals": [
+          {
+            "carbs_g": 20,
+            "fpu": 1.4,
+            "eaten_at": 1767264000000
+          },
+          {
+            "carbs_g": 99,
+            "fpu": 1.2,
+            "eaten_at": 1767254880000
+          }
+        ],
+        "icr": 10,
+        "isf": 35,
+        "now": 1767272400000,
+        "profile": {
+          "dia_hours": 4,
+          "insulin_peak_min": 90,
+          "target_mg_dl": 100,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 90,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 60,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 312,
+        "iob": 0,
+        "cob": 12.98,
+        "icr": 10,
+        "isf": 35,
+        "target_mg_dl": 100,
+        "eventual_bg": 357,
+        "meal_units": 3.1,
+        "correction_units": 7.36,
+        "total_units_unrounded": 10.46,
+        "recommended_units": 10,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 31,
+          "fpu": 2.4
+        }
+      }
+    },
+    {
+      "id": "bolus-17",
+      "input": {
+        "bg": 214,
+        "carbs_g": 37,
+        "fpu": 3.9,
+        "doses": [
+          {
+            "units": 1.5,
+            "type": "basal",
+            "injected_at": 1767254460000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 56,
+            "fpu": 2,
+            "eaten_at": 1767265680000
+          },
+          {
+            "carbs_g": 81,
+            "fpu": 1.2,
+            "eaten_at": 1767262380000
+          },
+          {
+            "carbs_g": 89,
+            "fpu": 2.5,
+            "eaten_at": 1767256500000
+          }
+        ],
+        "icr": 12,
+        "isf": 30,
+        "now": 1767267300000,
+        "profile": {
+          "dia_hours": 4,
+          "insulin_peak_min": 50,
+          "target_mg_dl": 100,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 60,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -25,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 214,
+        "iob": 0,
+        "cob": 149.9,
+        "icr": 12,
+        "isf": 30,
+        "target_mg_dl": 100,
+        "eventual_bg": 589,
+        "meal_units": 3.08,
+        "correction_units": 16.29,
+        "total_units_unrounded": 19.38,
+        "recommended_units": 19,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 37,
+          "fpu": 3.9
+        }
+      }
+    },
+    {
+      "id": "bolus-18",
+      "input": {
+        "bg": 193,
+        "carbs_g": 78,
+        "fpu": 2.8,
+        "doses": [],
+        "meals": [],
+        "icr": 8,
+        "isf": 40,
+        "now": 1767269220000,
+        "profile": {
+          "dia_hours": 4,
+          "insulin_peak_min": 90,
+          "target_mg_dl": 110,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 90,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 7,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 193,
+        "iob": 0,
+        "cob": 0,
+        "icr": 8,
+        "isf": 40,
+        "target_mg_dl": 110,
+        "eventual_bg": 193,
+        "meal_units": 9.75,
+        "correction_units": 2.08,
+        "total_units_unrounded": 11.83,
+        "recommended_units": 11,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 78,
+          "fpu": 2.8
+        }
+      }
+    },
+    {
+      "id": "bolus-19",
+      "input": {
+        "bg": 114,
+        "carbs_g": 111,
+        "fpu": 1.2,
+        "doses": [
+          {
+            "units": 2.5,
+            "type": "basal",
+            "injected_at": 1767254640000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 66,
+            "fpu": 1.1,
+            "eaten_at": 1767267600000
+          }
+        ],
+        "icr": 10,
+        "isf": 40,
+        "now": 1767265500000,
+        "profile": {
+          "dia_hours": 4.5,
+          "insulin_peak_min": 75,
+          "target_mg_dl": 110,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 120,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 0.5,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -55,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 114,
+        "iob": 0,
+        "cob": 77,
+        "icr": 10,
+        "isf": 40,
+        "target_mg_dl": 110,
+        "eventual_bg": 422,
+        "meal_units": 11.1,
+        "correction_units": 7.8,
+        "total_units_unrounded": 18.9,
+        "recommended_units": 18.5,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 111,
+          "fpu": 1.2
+        }
+      }
+    },
+    {
+      "id": "bolus-20",
+      "input": {
+        "bg": 176,
+        "carbs_g": 59,
+        "fpu": 0.8,
+        "doses": [
+          {
+            "units": 3,
+            "type": "basal",
+            "injected_at": 1767262740000
+          },
+          {
+            "units": 5,
+            "type": "bolus",
+            "injected_at": 1767267660000
+          },
+          {
+            "units": 6.5,
+            "type": "bolus",
+            "injected_at": 1767252840000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 65,
+            "fpu": 1.2,
+            "eaten_at": 1767264420000
+          },
+          {
+            "carbs_g": 5,
+            "fpu": 1,
+            "eaten_at": 1767254760000
+          }
+        ],
+        "icr": 15,
+        "isf": 25,
+        "now": 1767268320000,
+        "profile": {
+          "dia_hours": 3,
+          "insulin_peak_min": 50,
+          "target_mg_dl": 110,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 90,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 0.5,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -8,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 176,
+        "iob": 4.87,
+        "cob": 54.44,
+        "icr": 15,
+        "isf": 25,
+        "target_mg_dl": 110,
+        "eventual_bg": 145,
+        "meal_units": 3.93,
+        "correction_units": 1.4,
+        "total_units_unrounded": 5.33,
+        "recommended_units": 5,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 59,
+          "fpu": 0.8
+        }
+      }
+    },
+    {
+      "id": "bolus-21",
+      "input": {
+        "bg": 70,
+        "carbs_g": 117,
+        "fpu": 2.9,
+        "doses": [
+          {
+            "units": 6.5,
+            "type": "bolus",
+            "injected_at": 1767258480000
+          },
+          {
+            "units": 1.5,
+            "type": "correction",
+            "injected_at": 1767257400000
+          },
+          {
+            "units": 5.5,
+            "type": "correction",
+            "injected_at": 1767265200000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 58,
+            "fpu": 2.7,
+            "eaten_at": 1767252240000
+          },
+          {
+            "carbs_g": 31,
+            "fpu": 0.3,
+            "eaten_at": 1767260160000
+          }
+        ],
+        "icr": 8,
+        "isf": 50,
+        "now": 1767271380000,
+        "profile": {
+          "dia_hours": 4.5,
+          "insulin_peak_min": 75,
+          "target_mg_dl": 110,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 90,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 43,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 70,
+        "iob": 2.94,
+        "cob": 7.77,
+        "icr": 8,
+        "isf": 50,
+        "target_mg_dl": 110,
+        "eventual_bg": -29,
+        "meal_units": 14.63,
+        "correction_units": -2.77,
+        "total_units_unrounded": 11.85,
+        "recommended_units": 11,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 117,
+          "fpu": 2.9
+        }
+      }
+    },
+    {
+      "id": "bolus-22",
+      "input": {
+        "bg": 275,
+        "carbs_g": 41,
+        "fpu": 1.8,
+        "doses": [
+          {
+            "units": 3.5,
+            "type": "correction",
+            "injected_at": 1767265620000
+          },
+          {
+            "units": 7,
+            "type": "correction",
+            "injected_at": 1767262620000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 35,
+            "fpu": 1.7,
+            "eaten_at": 1767251460000
+          }
+        ],
+        "icr": 15,
+        "isf": 40,
+        "now": 1767267840000,
+        "profile": {
+          "dia_hours": 4,
+          "insulin_peak_min": 65,
+          "target_mg_dl": 110,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 90,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -16,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 275,
+        "iob": 6.52,
+        "cob": 4.04,
+        "icr": 15,
+        "isf": 40,
+        "target_mg_dl": 110,
+        "eventual_bg": 25,
+        "meal_units": 2.73,
+        "correction_units": -2.12,
+        "total_units_unrounded": 0.61,
+        "recommended_units": 0,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 41,
+          "fpu": 1.8
+        }
+      }
+    },
+    {
+      "id": "bolus-23",
+      "input": {
+        "bg": 240,
+        "carbs_g": 119,
+        "fpu": 0.7,
+        "doses": [
+          {
+            "units": 7,
+            "type": "correction",
+            "injected_at": 1767261480000
+          },
+          {
+            "units": 5,
+            "type": "correction",
+            "injected_at": 1767255240000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 24,
+            "fpu": 1.7,
+            "eaten_at": 1767252360000
+          },
+          {
+            "carbs_g": 1,
+            "fpu": 1.9,
+            "eaten_at": 1767266760000
+          }
+        ],
+        "icr": 8,
+        "isf": 30,
+        "now": 1767270480000,
+        "profile": {
+          "dia_hours": 3,
+          "insulin_peak_min": 75,
+          "target_mg_dl": 120,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 60,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 28,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 240,
+        "iob": 0.39,
+        "cob": 18.84,
+        "icr": 8,
+        "isf": 30,
+        "target_mg_dl": 120,
+        "eventual_bg": 299,
+        "meal_units": 14.88,
+        "correction_units": 5.96,
+        "total_units_unrounded": 20.84,
+        "recommended_units": 20,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 119,
+          "fpu": 0.7
+        }
+      }
+    },
+    {
+      "id": "bolus-24",
+      "input": {
+        "bg": 118,
+        "carbs_g": 16,
+        "fpu": 2.9,
+        "doses": [
+          {
+            "units": 4,
+            "type": "bolus",
+            "injected_at": 1767251340000
+          }
+        ],
+        "meals": [],
+        "icr": 8,
+        "isf": 50,
+        "now": 1767267540000,
+        "profile": {
+          "dia_hours": 4,
+          "insulin_peak_min": 90,
+          "target_mg_dl": 120,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 60,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -21,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 118,
+        "iob": 0,
+        "cob": 0,
+        "icr": 8,
+        "isf": 50,
+        "target_mg_dl": 120,
+        "eventual_bg": 118,
+        "meal_units": 2,
+        "correction_units": -0.04,
+        "total_units_unrounded": 1.96,
+        "recommended_units": 1,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 16,
+          "fpu": 2.9
+        }
+      }
+    },
+    {
+      "id": "bolus-25",
+      "input": {
+        "bg": 316,
+        "carbs_g": 116,
+        "fpu": 1.7,
+        "doses": [
+          {
+            "units": 1.5,
+            "type": "correction",
+            "injected_at": 1767264180000
+          },
+          {
+            "units": 7,
+            "type": "bolus",
+            "injected_at": 1767254760000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 9,
+            "fpu": 1.9,
+            "eaten_at": 1767253740000
+          },
+          {
+            "carbs_g": 48,
+            "fpu": 2.4,
+            "eaten_at": 1767260580000
+          }
+        ],
+        "icr": 12,
+        "isf": 40,
+        "now": 1767268980000,
+        "profile": {
+          "dia_hours": 4,
+          "insulin_peak_min": 50,
+          "target_mg_dl": 120,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 120,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 0.5,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 3,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 316,
+        "iob": 0.68,
+        "cob": 30.79,
+        "icr": 12,
+        "isf": 40,
+        "target_mg_dl": 120,
+        "eventual_bg": 392,
+        "meal_units": 9.67,
+        "correction_units": 6.79,
+        "total_units_unrounded": 16.46,
+        "recommended_units": 16,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 116,
+          "fpu": 1.7
+        }
+      }
+    },
+    {
+      "id": "bolus-26",
+      "input": {
+        "bg": 271,
+        "carbs_g": 60,
+        "fpu": 2,
+        "doses": [
+          {
+            "units": 6.5,
+            "type": "bolus",
+            "injected_at": 1767265800000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 16,
+            "fpu": 0.8,
+            "eaten_at": 1767257640000
+          },
+          {
+            "carbs_g": 53,
+            "fpu": 1.6,
+            "eaten_at": 1767253620000
+          },
+          {
+            "carbs_g": 12,
+            "fpu": 1,
+            "eaten_at": 1767266160000
+          }
+        ],
+        "icr": 15,
+        "isf": 40,
+        "now": 1767268500000,
+        "profile": {
+          "dia_hours": 4,
+          "insulin_peak_min": 75,
+          "target_mg_dl": 120,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 90,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -5,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 271,
+        "iob": 5.42,
+        "cob": 19.42,
+        "icr": 15,
+        "isf": 40,
+        "target_mg_dl": 120,
+        "eventual_bg": 106,
+        "meal_units": 4,
+        "correction_units": -0.35,
+        "total_units_unrounded": 3.65,
+        "recommended_units": 3,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 60,
+          "fpu": 2
+        }
+      }
+    },
+    {
+      "id": "bolus-27",
+      "input": {
+        "bg": 272,
+        "carbs_g": 40,
+        "fpu": 2.9,
+        "doses": [
+          {
+            "units": 3,
+            "type": "correction",
+            "injected_at": 1767261180000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 93,
+            "fpu": 1.9,
+            "eaten_at": 1767259260000
+          },
+          {
+            "carbs_g": 3,
+            "fpu": 0.5,
+            "eaten_at": 1767255540000
+          },
+          {
+            "carbs_g": 25,
+            "fpu": 0.9,
+            "eaten_at": 1767265380000
+          }
+        ],
+        "icr": 10,
+        "isf": 30,
+        "now": 1767267480000,
+        "profile": {
+          "dia_hours": 3,
+          "insulin_peak_min": 65,
+          "target_mg_dl": 100,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 60,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -22,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 272,
+        "iob": 0.83,
+        "cob": 70.04,
+        "icr": 10,
+        "isf": 30,
+        "target_mg_dl": 100,
+        "eventual_bg": 457,
+        "meal_units": 4,
+        "correction_units": 11.91,
+        "total_units_unrounded": 15.91,
+        "recommended_units": 15,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 40,
+          "fpu": 2.9
+        }
+      }
+    },
+    {
+      "id": "bolus-28",
+      "input": {
+        "bg": 262,
+        "carbs_g": 111,
+        "fpu": 2.4,
+        "doses": [
+          {
+            "units": 4,
+            "type": "basal",
+            "injected_at": 1767256200000
+          },
+          {
+            "units": 8,
+            "type": "correction",
+            "injected_at": 1767262860000
+          },
+          {
+            "units": 4.5,
+            "type": "bolus",
+            "injected_at": 1767259500000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 51,
+            "fpu": 0.5,
+            "eaten_at": 1767262080000
+          }
+        ],
+        "icr": 12,
+        "isf": 30,
+        "now": 1767270600000,
+        "profile": {
+          "dia_hours": 3.5,
+          "insulin_peak_min": 65,
+          "target_mg_dl": 120,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 60,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 30,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 262,
+        "iob": 1.66,
+        "cob": 2.72,
+        "icr": 12,
+        "isf": 30,
+        "target_mg_dl": 120,
+        "eventual_bg": 219,
+        "meal_units": 9.25,
+        "correction_units": 3.3,
+        "total_units_unrounded": 12.55,
+        "recommended_units": 12,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 111,
+          "fpu": 2.4
+        }
+      }
+    },
+    {
+      "id": "bolus-29",
+      "input": {
+        "bg": 115,
+        "carbs_g": 67,
+        "fpu": 3.6,
+        "doses": [
+          {
+            "units": 7.5,
+            "type": "basal",
+            "injected_at": 1767263760000
+          },
+          {
+            "units": 5,
+            "type": "bolus",
+            "injected_at": 1767263460000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 93,
+            "fpu": 2,
+            "eaten_at": 1767259620000
+          },
+          {
+            "carbs_g": 92,
+            "fpu": 0.5,
+            "eaten_at": 1767254280000
+          },
+          {
+            "carbs_g": 4,
+            "fpu": 2.5,
+            "eaten_at": 1767263700000
+          }
+        ],
+        "icr": 12,
+        "isf": 30,
+        "now": 1767269400000,
+        "profile": {
+          "dia_hours": 3.5,
+          "insulin_peak_min": 75,
+          "target_mg_dl": 110,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 60,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 0.5,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 10,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 115,
+        "iob": 2.14,
+        "cob": 52.5,
+        "icr": 12,
+        "isf": 30,
+        "target_mg_dl": 110,
+        "eventual_bg": 182,
+        "meal_units": 5.58,
+        "correction_units": 2.41,
+        "total_units_unrounded": 7.99,
+        "recommended_units": 7.5,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 67,
+          "fpu": 3.6
+        }
+      }
+    },
+    {
+      "id": "bolus-30",
+      "input": {
+        "bg": 341,
+        "carbs_g": 64,
+        "fpu": 3.9,
+        "doses": [
+          {
+            "units": 1.5,
+            "type": "basal",
+            "injected_at": 1767268080000
+          },
+          {
+            "units": 7,
+            "type": "basal",
+            "injected_at": 1767265800000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 92,
+            "fpu": 1.8,
+            "eaten_at": 1767259200000
+          },
+          {
+            "carbs_g": 45,
+            "fpu": 0.9,
+            "eaten_at": 1767262740000
+          },
+          {
+            "carbs_g": 96,
+            "fpu": 0.9,
+            "eaten_at": 1767264960000
+          }
+        ],
+        "icr": 8,
+        "isf": 30,
+        "now": 1767271680000,
+        "profile": {
+          "dia_hours": 3,
+          "insulin_peak_min": 75,
+          "target_mg_dl": 100,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 120,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 0.5,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 48,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 341,
+        "iob": 0,
+        "cob": 75.45,
+        "icr": 8,
+        "isf": 30,
+        "target_mg_dl": 100,
+        "eventual_bg": 624,
+        "meal_units": 8,
+        "correction_units": 17.46,
+        "total_units_unrounded": 25.46,
+        "recommended_units": 25,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 64,
+          "fpu": 3.9
+        }
+      }
+    },
+    {
+      "id": "bolus-31",
+      "input": {
+        "bg": 266,
+        "carbs_g": 2,
+        "fpu": 3,
+        "doses": [
+          {
+            "units": 6.5,
+            "type": "correction",
+            "injected_at": 1767255300000
+          },
+          {
+            "units": 1.5,
+            "type": "basal",
+            "injected_at": 1767264420000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 14,
+            "fpu": 0.4,
+            "eaten_at": 1767252480000
+          }
+        ],
+        "icr": 12,
+        "isf": 25,
+        "now": 1767266220000,
+        "profile": {
+          "dia_hours": 3,
+          "insulin_peak_min": 90,
+          "target_mg_dl": 120,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 120,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -43,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 266,
+        "iob": 0,
+        "cob": 1.58,
+        "icr": 12,
+        "isf": 25,
+        "target_mg_dl": 120,
+        "eventual_bg": 269,
+        "meal_units": 0.17,
+        "correction_units": 5.97,
+        "total_units_unrounded": 6.14,
+        "recommended_units": 6,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 2,
+          "fpu": 3
+        }
+      }
+    },
+    {
+      "id": "bolus-32",
+      "input": {
+        "bg": 286,
+        "carbs_g": 24,
+        "fpu": 3.9,
+        "doses": [
+          {
+            "units": 1.5,
+            "type": "bolus",
+            "injected_at": 1767253080000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 34,
+            "fpu": 1.2,
+            "eaten_at": 1767268200000
+          },
+          {
+            "carbs_g": 99,
+            "fpu": 2.9,
+            "eaten_at": 1767251100000
+          },
+          {
+            "carbs_g": 40,
+            "fpu": 2.4,
+            "eaten_at": 1767261960000
+          }
+        ],
+        "icr": 12,
+        "isf": 30,
+        "now": 1767267300000,
+        "profile": {
+          "dia_hours": 3.5,
+          "insulin_peak_min": 65,
+          "target_mg_dl": 100,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 90,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 0.5,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -25,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 286,
+        "iob": 0,
+        "cob": 84.6,
+        "icr": 12,
+        "isf": 30,
+        "target_mg_dl": 100,
+        "eventual_bg": 498,
+        "meal_units": 2,
+        "correction_units": 13.25,
+        "total_units_unrounded": 15.25,
+        "recommended_units": 15,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 24,
+          "fpu": 3.9
+        }
+      }
+    },
+    {
+      "id": "bolus-33",
+      "input": {
+        "bg": 253,
+        "carbs_g": 38,
+        "fpu": 2.3,
+        "doses": [],
+        "meals": [
+          {
+            "carbs_g": 85,
+            "fpu": 2.1,
+            "eaten_at": 1767266280000
+          },
+          {
+            "carbs_g": 80,
+            "fpu": 0.2,
+            "eaten_at": 1767256080000
+          }
+        ],
+        "icr": 12,
+        "isf": 35,
+        "now": 1767267660000,
+        "profile": {
+          "dia_hours": 4.5,
+          "insulin_peak_min": 65,
+          "target_mg_dl": 100,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 120,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 0.5,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -19,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 253,
+        "iob": 0,
+        "cob": 103.19,
+        "icr": 12,
+        "isf": 35,
+        "target_mg_dl": 100,
+        "eventual_bg": 554,
+        "meal_units": 3.17,
+        "correction_units": 12.97,
+        "total_units_unrounded": 16.14,
+        "recommended_units": 16,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 38,
+          "fpu": 2.3
+        }
+      }
+    },
+    {
+      "id": "bolus-34",
+      "input": {
+        "bg": 334,
+        "carbs_g": 10,
+        "fpu": 0,
+        "doses": [],
+        "meals": [
+          {
+            "carbs_g": 61,
+            "fpu": 0,
+            "eaten_at": 1767250800000
+          }
+        ],
+        "icr": 10,
+        "isf": 25,
+        "now": 1767267300000,
+        "profile": {
+          "dia_hours": 4.5,
+          "insulin_peak_min": 75,
+          "target_mg_dl": 100,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 60,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 0.5,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -25,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 334,
+        "iob": 0,
+        "cob": 0,
+        "icr": 10,
+        "isf": 25,
+        "target_mg_dl": 100,
+        "eventual_bg": 334,
+        "meal_units": 1,
+        "correction_units": 9.36,
+        "total_units_unrounded": 10.36,
+        "recommended_units": 10,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 10,
+          "fpu": 0
+        }
+      }
+    },
+    {
+      "id": "bolus-35",
+      "input": {
+        "bg": 97,
+        "carbs_g": 109,
+        "fpu": 2,
+        "doses": [
+          {
+            "units": 1.5,
+            "type": "basal",
+            "injected_at": 1767254520000
+          },
+          {
+            "units": 2.5,
+            "type": "bolus",
+            "injected_at": 1767255360000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 97,
+            "fpu": 0.3,
+            "eaten_at": 1767268200000
+          },
+          {
+            "carbs_g": 75,
+            "fpu": 0.9,
+            "eaten_at": 1767255420000
+          }
+        ],
+        "icr": 8,
+        "isf": 50,
+        "now": 1767267000000,
+        "profile": {
+          "dia_hours": 3,
+          "insulin_peak_min": 65,
+          "target_mg_dl": 100,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 120,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -30,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 97,
+        "iob": 0,
+        "cob": 105.35,
+        "icr": 8,
+        "isf": 50,
+        "target_mg_dl": 100,
+        "eventual_bg": 755,
+        "meal_units": 13.63,
+        "correction_units": 13.11,
+        "total_units_unrounded": 26.73,
+        "recommended_units": 26,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 109,
+          "fpu": 2
+        }
+      }
+    },
+    {
+      "id": "bolus-36",
+      "input": {
+        "bg": 270,
+        "carbs_g": 12,
+        "fpu": 2,
+        "doses": [
+          {
+            "units": 1.5,
+            "type": "basal",
+            "injected_at": 1767252000000
+          },
+          {
+            "units": 7,
+            "type": "basal",
+            "injected_at": 1767258720000
+          },
+          {
+            "units": 4.5,
+            "type": "correction",
+            "injected_at": 1767260040000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 60,
+            "fpu": 0.6,
+            "eaten_at": 1767261420000
+          }
+        ],
+        "icr": 8,
+        "isf": 35,
+        "now": 1767266820000,
+        "profile": {
+          "dia_hours": 3.5,
+          "insulin_peak_min": 75,
+          "target_mg_dl": 120,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 90,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 0.5,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -33,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 270,
+        "iob": 1.49,
+        "cob": 28.5,
+        "icr": 8,
+        "isf": 35,
+        "target_mg_dl": 120,
+        "eventual_bg": 342,
+        "meal_units": 1.5,
+        "correction_units": 6.36,
+        "total_units_unrounded": 7.86,
+        "recommended_units": 7.5,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 12,
+          "fpu": 2
+        }
+      }
+    },
+    {
+      "id": "bolus-37",
+      "input": {
+        "bg": 262,
+        "carbs_g": 3,
+        "fpu": 1.7,
+        "doses": [
+          {
+            "units": 3,
+            "type": "correction",
+            "injected_at": 1767258960000
+          },
+          {
+            "units": 5.5,
+            "type": "bolus",
+            "injected_at": 1767251460000
+          },
+          {
+            "units": 2,
+            "type": "bolus",
+            "injected_at": 1767266700000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 27,
+            "fpu": 1.5,
+            "eaten_at": 1767261060000
+          }
+        ],
+        "icr": 8,
+        "isf": 50,
+        "now": 1767272040000,
+        "profile": {
+          "dia_hours": 4.5,
+          "insulin_peak_min": 90,
+          "target_mg_dl": 100,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 90,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 54,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 262,
+        "iob": 1.41,
+        "cob": 9.19,
+        "icr": 8,
+        "isf": 50,
+        "target_mg_dl": 100,
+        "eventual_bg": 249,
+        "meal_units": 0.38,
+        "correction_units": 2.98,
+        "total_units_unrounded": 3.35,
+        "recommended_units": 3,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 3,
+          "fpu": 1.7
+        }
+      }
+    },
+    {
+      "id": "bolus-38",
+      "input": {
+        "bg": 187,
+        "carbs_g": 62,
+        "fpu": 3.6,
+        "doses": [
+          {
+            "units": 2.5,
+            "type": "correction",
+            "injected_at": 1767266220000
+          },
+          {
+            "units": 1,
+            "type": "basal",
+            "injected_at": 1767258960000
+          },
+          {
+            "units": 5,
+            "type": "correction",
+            "injected_at": 1767258420000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 43,
+            "fpu": 2.1,
+            "eaten_at": 1767261600000
+          }
+        ],
+        "icr": 10,
+        "isf": 30,
+        "now": 1767265920000,
+        "profile": {
+          "dia_hours": 4.5,
+          "insulin_peak_min": 75,
+          "target_mg_dl": 100,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 120,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 1,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": -48,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 187,
+        "iob": 4.27,
+        "cob": 35.5,
+        "icr": 10,
+        "isf": 30,
+        "target_mg_dl": 100,
+        "eventual_bg": 165,
+        "meal_units": 6.2,
+        "correction_units": 2.18,
+        "total_units_unrounded": 8.38,
+        "recommended_units": 8,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 62,
+          "fpu": 3.6
+        }
+      }
+    },
+    {
+      "id": "bolus-39",
+      "input": {
+        "bg": 133,
+        "carbs_g": 73,
+        "fpu": 0.5,
+        "doses": [
+          {
+            "units": 4.5,
+            "type": "correction",
+            "injected_at": 1767263280000
+          }
+        ],
+        "meals": [
+          {
+            "carbs_g": 53,
+            "fpu": 1.4,
+            "eaten_at": 1767258540000
+          }
+        ],
+        "icr": 15,
+        "isf": 35,
+        "now": 1767271740000,
+        "profile": {
+          "dia_hours": 4,
+          "insulin_peak_min": 65,
+          "target_mg_dl": 120,
+          "low_alarm_mg_dl": 70,
+          "high_alarm_mg_dl": 240,
+          "urgent_low_mg_dl": 55,
+          "carb_absorption_g_per_h": 30,
+          "carb_delay_min": 15,
+          "fpu_delay_min": 60,
+          "fpu_carb_equivalent_g": 10,
+          "dose_increment_u": 0.5,
+          "high_snooze_min": 60,
+          "low_snooze_min": 20,
+          "alarm_refire_min": 30,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 49,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "bg": 133,
+        "iob": 0.86,
+        "cob": 4.67,
+        "icr": 15,
+        "isf": 35,
+        "target_mg_dl": 120,
+        "eventual_bg": 114,
+        "meal_units": 4.87,
+        "correction_units": -0.18,
+        "total_units_unrounded": 4.69,
+        "recommended_units": 4.5,
+        "rescue_carbs_g": 0,
+        "new_meal": {
+          "carbs_g": 73,
+          "fpu": 0.5
+        }
+      }
+    }
+  ],
+  "highAlarmScenarios": [
+    {
+      "id": "high-alarm-0",
+      "input": {
+        "bg": 264,
+        "now": 1767270900000,
+        "lastDoseAt": null,
+        "bgAtLastDose": null,
+        "lastFiredAt": null,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 35,
+        "last_dose_offset_min": null,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "high"
+      }
+    },
+    {
+      "id": "high-alarm-1",
+      "input": {
+        "bg": 254,
+        "now": 1767268980000,
+        "lastDoseAt": null,
+        "bgAtLastDose": null,
+        "lastFiredAt": null,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 3,
+        "last_dose_offset_min": null,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "high"
+      }
+    },
+    {
+      "id": "high-alarm-2",
+      "input": {
+        "bg": 266,
+        "now": 1767275100000,
+        "lastDoseAt": 1767266820000,
+        "bgAtLastDose": 279,
+        "lastFiredAt": null,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 105,
+        "last_dose_offset_min": 33,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "high"
+      }
+    },
+    {
+      "id": "high-alarm-3",
+      "input": {
+        "bg": 154,
+        "now": 1767269220000,
+        "lastDoseAt": 1767265860000,
+        "bgAtLastDose": 285,
+        "lastFiredAt": null,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 7,
+        "last_dose_offset_min": 49,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "below_threshold"
+      }
+    },
+    {
+      "id": "high-alarm-4",
+      "input": {
+        "bg": 295,
+        "now": 1767268800000,
+        "lastDoseAt": null,
+        "bgAtLastDose": null,
+        "lastFiredAt": null,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 0,
+        "last_dose_offset_min": null,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "high"
+      }
+    },
+    {
+      "id": "high-alarm-5",
+      "input": {
+        "bg": 221,
+        "now": 1767275760000,
+        "lastDoseAt": 1767266340000,
+        "bgAtLastDose": 254,
+        "lastFiredAt": null,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 116,
+        "last_dose_offset_min": 41,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "below_threshold"
+      }
+    },
+    {
+      "id": "high-alarm-6",
+      "input": {
+        "bg": 247,
+        "now": 1767274380000,
+        "lastDoseAt": 1767264240000,
+        "bgAtLastDose": 217,
+        "lastFiredAt": null,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 93,
+        "last_dose_offset_min": 76,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "high"
+      }
+    },
+    {
+      "id": "high-alarm-7",
+      "input": {
+        "bg": 174,
+        "now": 1767270900000,
+        "lastDoseAt": 1767261780000,
+        "bgAtLastDose": 216,
+        "lastFiredAt": null,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 35,
+        "last_dose_offset_min": 117,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "below_threshold"
+      }
+    },
+    {
+      "id": "high-alarm-8",
+      "input": {
+        "bg": 189,
+        "now": 1767273420000,
+        "lastDoseAt": 1767266580000,
+        "bgAtLastDose": 285,
+        "lastFiredAt": 1767266520000,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 77,
+        "last_dose_offset_min": 37,
+        "last_fired_offset_min": 38,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "below_threshold"
+      }
+    },
+    {
+      "id": "high-alarm-9",
+      "input": {
+        "bg": 308,
+        "now": 1767276000000,
+        "lastDoseAt": 1767266100000,
+        "bgAtLastDose": 231,
+        "lastFiredAt": 1767267180000,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 120,
+        "last_dose_offset_min": 45,
+        "last_fired_offset_min": 27,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "high"
+      }
+    },
+    {
+      "id": "high-alarm-10",
+      "input": {
+        "bg": 189,
+        "now": 1767274860000,
+        "lastDoseAt": 1767265320000,
+        "bgAtLastDose": 263,
+        "lastFiredAt": 1767268020000,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 101,
+        "last_dose_offset_min": 58,
+        "last_fired_offset_min": 13,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "below_threshold"
+      }
+    },
+    {
+      "id": "high-alarm-11",
+      "input": {
+        "bg": 161,
+        "now": 1767275280000,
+        "lastDoseAt": 1767267600000,
+        "bgAtLastDose": 177,
+        "lastFiredAt": null,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 108,
+        "last_dose_offset_min": 20,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "below_threshold"
+      }
+    },
+    {
+      "id": "high-alarm-12",
+      "input": {
+        "bg": 204,
+        "now": 1767275220000,
+        "lastDoseAt": 1767262920000,
+        "bgAtLastDose": 275,
+        "lastFiredAt": null,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 107,
+        "last_dose_offset_min": 98,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "below_threshold"
+      }
+    },
+    {
+      "id": "high-alarm-13",
+      "input": {
+        "bg": 271,
+        "now": 1767269940000,
+        "lastDoseAt": 1767261600000,
+        "bgAtLastDose": 205,
+        "lastFiredAt": null,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 19,
+        "last_dose_offset_min": 120,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "high"
+      }
+    },
+    {
+      "id": "high-alarm-14",
+      "input": {
+        "bg": 199,
+        "now": 1767272520000,
+        "lastDoseAt": null,
+        "bgAtLastDose": null,
+        "lastFiredAt": null,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 62,
+        "last_dose_offset_min": null,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "below_threshold"
+      }
+    },
+    {
+      "id": "high-alarm-15",
+      "input": {
+        "bg": 207,
+        "now": 1767272460000,
+        "lastDoseAt": 1767266760000,
+        "bgAtLastDose": 211,
+        "lastFiredAt": null,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 61,
+        "last_dose_offset_min": 34,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "below_threshold"
+      }
+    },
+    {
+      "id": "high-alarm-16",
+      "input": {
+        "bg": 286,
+        "now": 1767274200000,
+        "lastDoseAt": 1767265620000,
+        "bgAtLastDose": 182,
+        "lastFiredAt": null,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 90,
+        "last_dose_offset_min": 53,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "high"
+      }
+    },
+    {
+      "id": "high-alarm-17",
+      "input": {
+        "bg": 183,
+        "now": 1767272880000,
+        "lastDoseAt": null,
+        "bgAtLastDose": null,
+        "lastFiredAt": 1767266880000,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 68,
+        "last_dose_offset_min": null,
+        "last_fired_offset_min": 32,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "below_threshold"
+      }
+    },
+    {
+      "id": "high-alarm-18",
+      "input": {
+        "bg": 256,
+        "now": 1767270300000,
+        "lastDoseAt": 1767263580000,
+        "bgAtLastDose": 272,
+        "lastFiredAt": 1767267240000,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 25,
+        "last_dose_offset_min": 87,
+        "last_fired_offset_min": 26,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "high"
+      }
+    },
+    {
+      "id": "high-alarm-19",
+      "input": {
+        "bg": 184,
+        "now": 1767272760000,
+        "lastDoseAt": null,
+        "bgAtLastDose": null,
+        "lastFiredAt": 1767265320000,
+        "profile": {
+          "high_alarm_mg_dl": 240,
+          "alarm_refire_min": 30,
+          "high_snooze_min": 60,
+          "rise_escape_mg_dl": 40
+        },
+        "now_offset_min": 66,
+        "last_dose_offset_min": null,
+        "last_fired_offset_min": 58,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "below_threshold"
+      }
+    }
+  ],
+  "lowAlarmScenarios": [
+    {
+      "id": "low-alarm-0",
+      "input": {
+        "bg": 46,
+        "now": 1767270420000,
+        "lastCarbsAt": 1767266820000,
+        "lastFiredAt": 1767268440000,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 27,
+        "last_carbs_offset_min": 33,
+        "last_fired_offset_min": 6,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "urgent_low"
+      }
+    },
+    {
+      "id": "low-alarm-1",
+      "input": {
+        "bg": 82,
+        "now": 1767268980000,
+        "lastCarbsAt": 1767266400000,
+        "lastFiredAt": null,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 3,
+        "last_carbs_offset_min": 40,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "above_threshold"
+      }
+    },
+    {
+      "id": "low-alarm-2",
+      "input": {
+        "bg": 89,
+        "now": 1767268800000,
+        "lastCarbsAt": 1767268680000,
+        "lastFiredAt": null,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 0,
+        "last_carbs_offset_min": 2,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "above_threshold"
+      }
+    },
+    {
+      "id": "low-alarm-3",
+      "input": {
+        "bg": 74,
+        "now": 1767270660000,
+        "lastCarbsAt": null,
+        "lastFiredAt": null,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 31,
+        "last_carbs_offset_min": null,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "above_threshold"
+      }
+    },
+    {
+      "id": "low-alarm-4",
+      "input": {
+        "bg": 68,
+        "now": 1767271500000,
+        "lastCarbsAt": 1767267240000,
+        "lastFiredAt": null,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 45,
+        "last_carbs_offset_min": 26,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "low"
+      }
+    },
+    {
+      "id": "low-alarm-5",
+      "input": {
+        "bg": 90,
+        "now": 1767270300000,
+        "lastCarbsAt": null,
+        "lastFiredAt": null,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 25,
+        "last_carbs_offset_min": null,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "above_threshold"
+      }
+    },
+    {
+      "id": "low-alarm-6",
+      "input": {
+        "bg": 79,
+        "now": 1767269520000,
+        "lastCarbsAt": null,
+        "lastFiredAt": null,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 12,
+        "last_carbs_offset_min": null,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "above_threshold"
+      }
+    },
+    {
+      "id": "low-alarm-7",
+      "input": {
+        "bg": 58,
+        "now": 1767270900000,
+        "lastCarbsAt": 1767266820000,
+        "lastFiredAt": null,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 35,
+        "last_carbs_offset_min": 33,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "low"
+      }
+    },
+    {
+      "id": "low-alarm-8",
+      "input": {
+        "bg": 65,
+        "now": 1767271560000,
+        "lastCarbsAt": null,
+        "lastFiredAt": 1767267300000,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 46,
+        "last_carbs_offset_min": null,
+        "last_fired_offset_min": 25,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "low"
+      }
+    },
+    {
+      "id": "low-alarm-9",
+      "input": {
+        "bg": 75,
+        "now": 1767272220000,
+        "lastCarbsAt": null,
+        "lastFiredAt": null,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 57,
+        "last_carbs_offset_min": null,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "above_threshold"
+      }
+    },
+    {
+      "id": "low-alarm-10",
+      "input": {
+        "bg": 41,
+        "now": 1767271980000,
+        "lastCarbsAt": 1767268620000,
+        "lastFiredAt": null,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 53,
+        "last_carbs_offset_min": 3,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "urgent_low"
+      }
+    },
+    {
+      "id": "low-alarm-11",
+      "input": {
+        "bg": 64,
+        "now": 1767270360000,
+        "lastCarbsAt": 1767267000000,
+        "lastFiredAt": 1767266040000,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 26,
+        "last_carbs_offset_min": 30,
+        "last_fired_offset_min": 46,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "low"
+      }
+    },
+    {
+      "id": "low-alarm-12",
+      "input": {
+        "bg": 63,
+        "now": 1767272160000,
+        "lastCarbsAt": 1767267720000,
+        "lastFiredAt": 1767268680000,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 56,
+        "last_carbs_offset_min": 18,
+        "last_fired_offset_min": 2,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "low"
+      }
+    },
+    {
+      "id": "low-alarm-13",
+      "input": {
+        "bg": 85,
+        "now": 1767270000000,
+        "lastCarbsAt": 1767267300000,
+        "lastFiredAt": null,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 20,
+        "last_carbs_offset_min": 25,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "above_threshold"
+      }
+    },
+    {
+      "id": "low-alarm-14",
+      "input": {
+        "bg": 47,
+        "now": 1767268860000,
+        "lastCarbsAt": 1767266820000,
+        "lastFiredAt": 1767267720000,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 1,
+        "last_carbs_offset_min": 33,
+        "last_fired_offset_min": 18,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "urgent_low"
+      }
+    },
+    {
+      "id": "low-alarm-15",
+      "input": {
+        "bg": 68,
+        "now": 1767269160000,
+        "lastCarbsAt": null,
+        "lastFiredAt": null,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 6,
+        "last_carbs_offset_min": null,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "low"
+      }
+    },
+    {
+      "id": "low-alarm-16",
+      "input": {
+        "bg": 55,
+        "now": 1767269040000,
+        "lastCarbsAt": null,
+        "lastFiredAt": 1767268500000,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 4,
+        "last_carbs_offset_min": null,
+        "last_fired_offset_min": 5,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "urgent_low"
+      }
+    },
+    {
+      "id": "low-alarm-17",
+      "input": {
+        "bg": 70,
+        "now": 1767270000000,
+        "lastCarbsAt": 1767267600000,
+        "lastFiredAt": 1767266640000,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 20,
+        "last_carbs_offset_min": 20,
+        "last_fired_offset_min": 36,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": true,
+        "reason": "low"
+      }
+    },
+    {
+      "id": "low-alarm-18",
+      "input": {
+        "bg": 84,
+        "now": 1767268800000,
+        "lastCarbsAt": 1767267780000,
+        "lastFiredAt": null,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 0,
+        "last_carbs_offset_min": 17,
+        "last_fired_offset_min": null,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "above_threshold"
+      }
+    },
+    {
+      "id": "low-alarm-19",
+      "input": {
+        "bg": 77,
+        "now": 1767271380000,
+        "lastCarbsAt": null,
+        "lastFiredAt": 1767267000000,
+        "profile": {
+          "low_alarm_mg_dl": 70,
+          "urgent_low_mg_dl": 55,
+          "alarm_refire_min": 30,
+          "low_snooze_min": 20
+        },
+        "now_offset_min": 43,
+        "last_carbs_offset_min": null,
+        "last_fired_offset_min": 30,
+        "t0_iso": "2026-01-01T12:00:00.000Z"
+      },
+      "result": {
+        "fire": false,
+        "reason": "above_threshold"
+      }
+    }
+  ]
+}

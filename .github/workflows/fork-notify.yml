@@ -1,0 +1,26 @@
+# GitHub has no "notify me on fork" setting. This opens an issue for each
+# new fork, and the repository owner is notified of new issues.
+name: Aviso de novo fork
+
+on:
+  fork:
+
+permissions:
+  issues: write
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Abrir issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FORK_NAME: ${{ github.event.forkee.full_name }}
+          FORK_URL: ${{ github.event.forkee.html_url }}
+          FORKER: ${{ github.event.sender.login }}
+        # Values go through env, never interpolated into the script, and the
+        # login is not @-mentioned so the person who forked is not pinged.
+        run: |
+          gh issue create --repo "$GITHUB_REPOSITORY" \
+            --title "Novo fork: $FORK_NAME" \
+            --body "\`$FORKER\` fez fork do repositório: $FORK_URL"

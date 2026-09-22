@@ -1,0 +1,61 @@
+name: Glucose
+options:
+  bundleIdPrefix: com.yourname
+  # Source strings are English; Glucose/Localizable.xcstrings holds the
+  # translations. iOS picks the language from the phone's settings.
+  developmentLanguage: en
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "26.0"
+# ── The two values you MUST change before installing on a real iPhone ──
+# (see README → "Instalar no iPhone"). The simulator works as-is.
+settings:
+  base:
+    DT1_BUNDLE_ID: com.yourname.dt1agent   # any unique reverse-DNS id of yours
+    DEVELOPMENT_TEAM: ""                   # your Apple Team ID (Xcode → Settings → Accounts)
+targets:
+  Glucose:
+    type: application
+    platform: iOS
+    sources: [Glucose]
+    info:
+      path: Glucose/Info.plist
+      properties:
+        CFBundleDisplayName: DT1 Agent
+        UILaunchScreen: {}
+        # audio: keeps the app alive in the foreground/near-background for
+        # audible alarms (xDrip4iOS approach). fetch/processing: lets iOS
+        # opportunistically wake the app to poll LibreLinkUp when closed —
+        # see BackgroundScheduler.swift for why ~12h gaps are still safe.
+        UIBackgroundModes: [audio, fetch, processing]
+        BGTaskSchedulerPermittedIdentifiers: [$(PRODUCT_BUNDLE_IDENTIFIER).refresh]
+        NSUserNotificationsUsageDescription: >-
+          The app alerts you when your glucose is high or low, even in the background.
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: Glucose/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: $(DT1_BUNDLE_ID)
+        SWIFT_VERSION: "5.9"
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_EMIT_LOC_STRINGS: YES
+        LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+    # Run installs the optimized Release build — Debug Swift is visibly
+    # slower and this is a daily-use device app, not a debugging target.
+    scheme:
+      testTargets: [GlucoseEngineTests]
+      gatherCoverageData: false
+      run:
+        config: Release
+  GlucoseEngineTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [GlucoseEngineTests]
+    dependencies:
+      - target: Glucose
+    settings:
+      base:
+        SWIFT_VERSION: "5.9"
+        GENERATE_INFOPLIST_FILE: YES
